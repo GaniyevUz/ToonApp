@@ -1,5 +1,5 @@
 
-# PHP-CRUD-with-pagination-in-OOP
+# ToonApp-API-in-PHP-OOP
 
 **Convert real photos into cartoon images with high accuracy and beautiful**
 
