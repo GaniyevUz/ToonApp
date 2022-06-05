@@ -11,7 +11,7 @@ example code is here
 require_once "ToonApp.php";
 use GaniyevUz\Toon;
 
-$image  = new CURLFile('image.jpg');
+$image  = new CURLFile('image.jpg'); // source image
 $ToonApp = new ToonApp($image);
 echo $ToonApp->execute();
 
