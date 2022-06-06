@@ -34,7 +34,6 @@ class ToonApp
         curl_setopt($ch, CURLOPT_POSTFIELDS,["image"=> $source]);
         $this->response = curl_exec($ch);
         curl_close($ch);
-        file_put_contents('1.jpg', $this->response);
     }
     public function execute($target='ToonApp.png')
     {
