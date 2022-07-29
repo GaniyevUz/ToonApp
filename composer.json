@@ -1,0 +1,21 @@
+{
+  "name": "ganiyevuz/toonapp",
+  "description": "Tonapp parser",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "GaniyevUz\\ToonApp": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Jakhongir Ganiyev",
+      "email": "jakhongir.ganiyev@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "phpunit/phpunit": "9.5.21"
+  }
+}

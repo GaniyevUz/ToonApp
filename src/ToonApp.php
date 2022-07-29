@@ -8,7 +8,7 @@
  * @phone +998943024672 
  */
 
-namespace GaniyevUz\Toon;
+namespace GaniyevUz;
 
 class ToonApp
 {
@@ -31,13 +31,13 @@ class ToonApp
         $headers[]  = 'Content-Type: multipart/form-data';
         $headers[] = 'User-Agent: Cartoon/2.0.55 (com.lyrebirdstudio.cartoon; build:3; iOS 15.4.1) Alamofire/5.6.0';
         curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
-        curl_setopt($ch, CURLOPT_POSTFIELDS,["image"=> $source]);
+        curl_setopt($ch, CURLOPT_POSTFIELDS, ["image" => $source]);
         $this->response = curl_exec($ch);
         curl_close($ch);
     }
-    public function execute($target='ToonApp.png')
+    public function execute($target = 'ToonApp.png')
     {
         file_put_contents($target, $this->response);
-        return 'Saved in '. $target;
+        return 'Saved in ' . $target;
     }
 }
