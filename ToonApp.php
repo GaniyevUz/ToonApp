@@ -8,7 +8,7 @@
  * @phone +998943024672 
  */
 
-namespace GaniyevUz\Toon;
+namespace GaniyevUz;
 
 class ToonApp
 {
