@@ -6,6 +6,10 @@
 
 example code is here
 
+```shell
+composer require ganiyevuz/toonapp
+```
+
 ```php
 require_once "vendor/autoload.php";
 use GaniyevUz\ToonApp;
