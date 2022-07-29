@@ -1,0 +1,18 @@
+{
+    "name": "ganiyevuz/toonapp",
+    "description": "TonApp parser",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "GaniyevUz\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jakhongir Ganiev",
+            "email": "jakhongir.ganiev@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
