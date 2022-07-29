@@ -8,8 +8,8 @@
 example code is here
 
 ```php
-require_once "ToonApp.php";
-use GaniyevUz\Toon;
+require_once "vendor/autoload.php";
+use GaniyevUz\ToonApp;
 
 $image  = new CURLFile('image.jpg'); // source image
 $ToonApp = new ToonApp($image);
