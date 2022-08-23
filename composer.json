@@ -5,7 +5,7 @@
   "license": "MIT",
   "autoload": {
     "psr-4": {
-      "ganiyevuz\toonapp\": "src/"
+      "GaniyevUz\ToonApp": "src/"
     }
   },
   "authors": [
